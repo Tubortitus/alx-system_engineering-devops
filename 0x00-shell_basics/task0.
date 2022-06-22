@@ -1,0 +1,63 @@
+k1.
+#!/bin/bash
+ls
+task2.
+#!/bin/bash
+cd
+task 3.
+#!/bin/bash
+ls -l
+task 4.
+#!/bin/bash
+ls -la
+task 5.
+#!/bin/bash
+ls -na
+task 6.
+#!/bin/bash
+mkdir /tmp/my_first_directory
+task 7.
+#!/bin/bash
+mv /tmp/betty /tmp/my_first_directory
+task 8.
+#!/bin/bash
+rm /tmp/my_first_directory/betty
+task 9.
+#!/bin/bash
+rm -r /tmp/my_first_directory
+task 10.
+#!/bin/bash
+cd -
+task 11.
+#!/bin/bash
+ls -al . .. /boot
+task 12.
+#!/bin/bash
+file /tmp/iamafile
+task 13.
+#!/bin/bash
+ln -s /bin/ls __ls__
+task 14.
+#!/bin/bash
+cp -rua *.html ../
+task 15.
+#!/bin/bash
+mv [[:upper:]]* /tmp/u
+
+task 16.
+#!/bin/bash
+rm *~
+task 17.
+#!/bin/bash
+mkdir -p welcome/to/school
+task 18.
+#!/bin/bash
+ls -map | sort -d
+task 19.
+#!/bin/bash
+0 string SCHOOL School data
+!:mime School
+
+Note: after creating each file and writing the respective contents into it, you should make them executable before pushing your changes. if u want to understand the effect of an script, after creating the file, just ls the directory , you'd find out that the file is displayed in a white color. but once u make it a script with chmod u+x (filename) and ls, you'd discover the color is green showing that the file contains a script that is executable and can be reused anywhere in the shell environ. to execute the script(i.e the content in the file), run a ./(filename), this would automatically execute the command written inside the file. an example is the first task(task0) to print your working directory, after making the file executable, try running ./0-current_working_directory this would print your current working directory, meaning u dont have to run the command, u just have to run the file and the system would read it's content and execute it. there is no time so i can't do justice to completely explaining the shell environ, i just wanted to help the lil of us struggling with it coz i know most of us have done it already. also try reading the TLCL pdf material . they gave us the link to the book sometime during the first week. its 555pages and it contains all commands with indepth explanations.
+
+
